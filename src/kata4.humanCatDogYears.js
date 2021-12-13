@@ -1,9 +1,9 @@
 const humanCatDogYears = number => {
-  let catYear = number;
-  let dogYear = number;
+  let catYear;
+  let dogYear;
   if (number === 1) {
-    catYear = number + 14;
-    dogYear = number + 14;
+    catYear = 15;
+    dogYear = 15;
   }
 
   if (number === 2) {
